@@ -15,24 +15,6 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// contactForm denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm contactForm;
-
-        /// <summary>
-        /// txtMesaj denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMesaj;
-
-        /// <summary>
         /// txtAdSoyad denetimi.
         /// </summary>
         /// <remarks>
@@ -42,13 +24,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtAdSoyad;
 
         /// <summary>
-        /// txtEposta denetimi.
+        /// txtMail denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEposta;
+        protected global::System.Web.UI.WebControls.TextBox txtMail;
 
         /// <summary>
         /// txtKonu denetimi.
@@ -60,12 +42,21 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtKonu;
 
         /// <summary>
-        /// Button1 denetimi.
+        /// txtMesaj denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox txtMesaj;
+
+        /// <summary>
+        /// iletisimButton denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button iletisimButton;
     }
 }
