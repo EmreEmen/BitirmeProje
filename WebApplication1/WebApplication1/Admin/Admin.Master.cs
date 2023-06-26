@@ -11,7 +11,12 @@ namespace WebApplication1.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["kullanici"] == null)
+                Response.Redirect("~/Login.aspx");
+            else
+            {
+                lblkullanici.Text = Session["kullanici"].ToString();
+            }
         }
     }
 }

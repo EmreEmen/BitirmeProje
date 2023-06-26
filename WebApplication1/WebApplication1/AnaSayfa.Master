@@ -86,8 +86,9 @@
                                             <li><a href="Kurumsal.aspx">Hakkımızda</a></li>
                                             <li><a href="Paketler.aspx">Paketler</a></li>
                                             <li><a href="Blog.aspx">Blog</a>                                                                                         
-                                            <li><a href="İletisim.aspx">İletişim</a></li>                                                                                                                          
-                                        </ul>
+                                            <li><a href="İletisim.aspx">İletişim</a></li>
+                                              <li><a href="admin/Login.aspx">Admin</a></li>     
+                                        </ul>                              
                                     </nav>
                                 </div>
                             </div>

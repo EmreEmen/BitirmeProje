@@ -24,6 +24,15 @@ namespace WebApplication1.Admin
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
+        /// lblkullanici denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblkullanici;
+
+        /// <summary>
         /// ContentPlaceHolder1 denetimi.
         /// </summary>
         /// <remarks>
